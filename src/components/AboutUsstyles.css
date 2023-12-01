@@ -1,0 +1,25 @@
+.predictButton {
+    position: relative;
+    overflow: hidden;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    /* Adjust other styles as needed */
+  }
+  
+  .progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #2980b9;
+    z-index: -1;
+    height: 100%;
+    transform-origin: left center;
+    transform: scaleX(0); /* Initially scale the width to 0 */
+    transition: transform 3s ease; /* Change duration here */
+  }
+  
