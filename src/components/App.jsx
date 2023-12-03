@@ -8,6 +8,7 @@ import AboutUs from "./AboutUs";
 function App() {
 
   return (
+    <>
     <Router>
         <Navbar />
       <div>
@@ -19,6 +20,7 @@ function App() {
         </Routes>
       </div>
     </Router>
+    </>
   );
 }
 export default App;

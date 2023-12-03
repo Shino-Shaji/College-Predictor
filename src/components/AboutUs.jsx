@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './AboutUsstyles.css'; // Import your CSS file containing button styles
-
+import './AboutUsstyles.css'; 
 const App = () => {
   const [isPredicting, setIsPredicting] = useState(false);
 
@@ -13,7 +12,7 @@ const App = () => {
       const interval = setInterval(() => {
         clearInterval(interval);
         setIsPredicting(false);
-      }, 2000); // 2 seconds duration for the "curtain" effect
+      }, 2000); 
     }
   }, [isPredicting]);
 

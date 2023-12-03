@@ -8,7 +8,6 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    /* Adjust other styles as needed */
   }
   
   .progress {
@@ -19,7 +18,7 @@
     z-index: -1;
     height: 100%;
     transform-origin: left center;
-    transform: scaleX(0); /* Initially scale the width to 0 */
-    transition: transform 3s ease; /* Change duration here */
+    transform: scaleX(0);
+    transition: transform 3s ease; 
   }
   

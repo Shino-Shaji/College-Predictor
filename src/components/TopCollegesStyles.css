@@ -3,6 +3,14 @@
     border-bottom: 1px solid #000;
     border-top: none;
 }
+.college-name{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.college-name:hover{
+    color:#999;
+}
 .container-fluid.top-colleges-container {
     margin-top: 30px;
 }

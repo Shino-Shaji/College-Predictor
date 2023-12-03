@@ -1,0 +1,26 @@
+.container-fluid {
+    display: flex;
+    justify-content: center;
+  }
+  .course-title{
+    text-align: left;
+  }
+  .fee-title{
+    text-align: right;
+  }
+  .course-content{
+    text-align: left ;
+    padding-right: 20rem !important;
+    
+  }
+  .fee-content{
+    text-align: right !important;
+  }
+  /* .table-head-row td{
+    padding-right: 2rem;
+    text-align: center;
+}
+.table-head-row th{
+    padding-right: 1rem;
+    text-align: center;
+} */
